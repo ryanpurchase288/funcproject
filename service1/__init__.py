@@ -18,12 +18,13 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
     client = CosmosClient(endpoint, key)
 
     database_name = "Usernames"
-    client.create_database_if_not_exists(id=database_name)
+    database=client.create_database_if_not_exists(id=database_name)
 
     container_name = "UsernameContainer"
     container = database.create_container_if_not_exists(
         id=container_name,
         partition_key=PartitionKey(path="/username")
+        offer_throughput=400
     )
     username_to_add = {
         "id": username
