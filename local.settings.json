@@ -1,0 +1,10 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=storgae;AccountKey=BKyXX3EOT8UoSEn7ZXzBzrV/xYCFOUBrDD3D9Si5T/DO+ckPzkD+R5mqi2dGUMJioMO2U6Ev+oR6WTnUbGpiPw==",
+    "FUNCTIONS_EXTENSION_VERSION": "~2",
+    "APPINSIGHTS_INSTRUMENTATIONKEY": "ac7eeb0e-1ce7-4121-bdee-2a0f22926993"
+  },
+  "ConnectionStrings": {}
+}
