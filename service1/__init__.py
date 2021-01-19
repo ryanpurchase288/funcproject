@@ -13,8 +13,8 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
         username += letterstring[i]
         username += nostring[i]
 
-    endpoint = "https://ryan.documents.azure.com:443/"
-    key = "tmWgihjw68kOrkMSzMCdU8JOaj1ofw9mmxujRnBLedHAMMHFwery3brqMRlrV2HDOj6p1sBLWx5XjwB1GUAiVA=="
+    endpoint = ""
+    key = ""
     client = CosmosClient(endpoint, key)
 
     database_name = "Usernames"
